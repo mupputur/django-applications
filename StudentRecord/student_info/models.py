@@ -5,6 +5,7 @@ from django.db import models
 
 #craeted | st_name |  collage
 
+
 class StudentInfoModel(models.Model):
 
     st_name = models.CharField(max_length=20)
